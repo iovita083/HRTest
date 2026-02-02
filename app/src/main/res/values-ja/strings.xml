@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HRテスト</string>
+    <string name="defualt_hr">--</string>
+    <string name="tip_info">指をセンサーに当てて動かさないでください。一部の機器では測定に最大30秒かかる場合があります。</string>
+    <string name="no_hr_sensor">心拍センサーなし</string>
+    <string name="requesting_body_sensors">BODY_SENSORS権限を要求しています</string>
+    <string name="body_sensors_denied">BODY_SENSORS権限が拒否されました</string>
+    <string name="sensor_info">センサー: %1$s\nベンダー: %2$s\n解像度: %3$.2f\n最大: %4$.2f\n最小遅延: %5$d</string>
+</resources>
