@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/bpm"
+        android:text="@string/defualt_hr"
+        android:textSize="100sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/helptext"
+        android:text="@string/tip_info"
+        android:textColor="#AAA"
+        android:textSize="14sp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"/>
+
+    <!-- This empty view pushes the info TextView to the bottom -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:textColor="#AAA"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

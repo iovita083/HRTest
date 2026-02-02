@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HR Test</string>
+    <string name="defualt_hr">--</string>
+    <string name="tip_info">Hold finger to sensor and stay still, readings may take up to 30 seconds on some devices</string>
+    <string name="no_hr_sensor">No heart-rate sensor</string>
+    <string name="requesting_body_sensors">Requesting BODY_SENSORS permission…</string>
+    <string name="body_sensors_denied">BODY_SENSORS permission denied</string>
+    <string name="sensor_info">Sensor: %1$s\nVendor: %2$s\nRes: %3$.2f\nMax: %4$.2f\nMinDelay: %5$d</string>
+</resources>
